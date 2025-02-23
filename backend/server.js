@@ -10,7 +10,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000/",
-      "https://nawra-workout-buddy.vercel.app",
+      "https://nawar-workout-buddy.vercel.app/",
     ],
     methods: ["POST", "GET", "DELETE"],
     credentials: true,
