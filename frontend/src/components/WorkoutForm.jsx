@@ -14,7 +14,7 @@ const WorkoutForm = () => {
 
     const workout = { title, load, reps };
 
-    const response = await fetch("/api/workouts", {
+    const response = await fetch("https://nawar-workout-buddy.vercel.app/api/workouts", {
       method: "POST",
       body: JSON.stringify(workout),
       headers: {
